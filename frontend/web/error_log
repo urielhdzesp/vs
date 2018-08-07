@@ -1,0 +1,1672 @@
+[19-Jul-2018 14:49:33 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/yellomil/public_html/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php on line 490
+[19-Jul-2018 14:51:34 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/yellomil/public_html/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php on line 490
+[19-Jul-2018 14:51:53 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/yellomil/public_html/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php on line 490
+[19-Jul-2018 15:01:40 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/yellomil/public_html/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php on line 490
+[19-Jul-2018 15:06:06 UTC] PHP Fatal error:  Call to undefined function yii\caching\json_encode() in /home/yellomil/public_html/vendor/yiisoft/yii2/caching/Cache.php on line 98
+[19-Jul-2018 15:06:10 UTC] PHP Fatal error:  Call to undefined function yii\caching\json_encode() in /home/yellomil/public_html/vendor/yiisoft/yii2/caching/Cache.php on line 98
+[19-Jul-2018 15:06:12 UTC] PHP Fatal error:  Call to undefined function yii\caching\json_encode() in /home/yellomil/public_html/vendor/yiisoft/yii2/caching/Cache.php on line 98
+[19-Jul-2018 15:06:22 UTC] PHP Fatal error:  Call to undefined function yii\caching\json_encode() in /home/yellomil/public_html/vendor/yiisoft/yii2/caching/Cache.php on line 98
+[19-Jul-2018 23:39:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Yii::app() in /home/yellomil/public_html/frontend/web/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/yellomil/public_html/frontend/web/index.php on line 16
+[25-Jul-2018 21:33:55 UTC] PHP Fatal error:  Call to undefined function frontend\controllers\http_get() in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 75
+[25-Jul-2018 21:44:25 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::absoluteUrl' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('absoluteUrl')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\di\ServiceLocator->__get('absoluteUrl')
+#2 [internal function]: frontend\controllers\SiteController->actionIndex()
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jvOA4ugERIks@7EbHNJwAAAAo',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '49266',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555064.8793430328369140625,
+    'REQUEST_TIME' => 1532555064,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:47:59 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::call()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\base\Component->__call('call', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\web\Request->call()
+#2 [internal function]: frontend\controllers\SiteController->actionIndex()
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jwD3h4h4bkaOmdhrFX6AAAAAk',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '49581',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555279.7854149341583251953125,
+    'REQUEST_TIME' => 1532555279,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:51:13 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::base' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('base')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\di\ServiceLocator->__get('base')
+#2 [internal function]: frontend\controllers\SiteController->actionIndex()
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jw0QQhZoE6aKqFibwcywAAAAo',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '49867',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555473.6678240299224853515625,
+    'REQUEST_TIME' => 1532555473,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:51:48 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::action' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('action')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\di\ServiceLocator->__get('action')
+#2 [internal function]: frontend\controllers\SiteController->actionIndex()
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jw9LLUFstK97hum6HxxgAAABc',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '49917',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555508.320146083831787109375,
+    'REQUEST_TIME' => 1532555508,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:52:54 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Request::id' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\base\Component->__get('id')
+#1 [internal function]: frontend\controllers\SiteController->actionIndex()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jxNp9C3XQyPjrD7jAI7gAAACQ',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '50007',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555574.9145200252532958984375,
+    'REQUEST_TIME' => 1532555574,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:53:02 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 76.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::app' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('app')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(76): yii\di\ServiceLocator->__get('app')
+#2 [internal function]: frontend\controllers\SiteController->actionIndex()
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1jxPiaxafKLRqrcoGjxOgAAAAU',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=4oqghc7b5chdfvkv0u9h8nve20; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=bb3bf3c0c84ba53d3e1db8f33ade6e7ee4bafbec6bc066df4a34a4616a62241ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MNWJ79WarPhsBPr5j3SIV-DScKhvxHdG%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '50021',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532555582.87267398834228515625,
+    'REQUEST_TIME' => 1532555582,
+    'argv' => [],
+    'argc' => 0,
+]
+[25-Jul-2018 21:58:11 UTC] PHP Fatal error:  Call to undefined function frontend\controllers\http_get() in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 75
+[26-Jul-2018 21:20:42 UTC] PHP Fatal error:  Call to undefined method Yii::app() in /home/yellomil/yii.yellomile.com/frontend/views/site/nosotros.php on line 59
+[30-Jul-2018 15:26:39 UTC] PHP Fatal error:  Cannot use [] for reading in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230
+[30-Jul-2018 15:58:42 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\User::name' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(230): yii\base\Component->__get('name')
+#1 [internal function]: frontend\controllers\SiteController->actionHola('holas')
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W181siHWV5yz96v5F-riCwAAABk',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=00vjmldamjnfap2k8jaknpq695; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '53651',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'REDIRECT_QUERY_STRING' => 'message=holas',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'message=holas',
+    'REQUEST_URI' => '/site/hola?message=holas',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532966322.2925040721893310546875,
+    'REQUEST_TIME' => 1532966322,
+    'argv' => [
+        'message=holas',
+    ],
+    'argc' => 1,
+]
+[30-Jul-2018 15:58:54 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\User::name' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(230): yii\base\Component->__get('name')
+#1 [internal function]: frontend\controllers\SiteController->actionHola('holas')
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W181vRGohb0-iBQWnJ5NcAAAAAI',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=00vjmldamjnfap2k8jaknpq695; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '53652',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'REDIRECT_QUERY_STRING' => 'message=holas',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'message=holas',
+    'REQUEST_URI' => '/site/hola?message=holas',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532966333.9885981082916259765625,
+    'REQUEST_TIME' => 1532966333,
+    'argv' => [
+        'message=holas',
+    ],
+    'argc' => 1,
+]
+[30-Jul-2018 15:59:23 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\User::username' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(230): yii\base\Component->__get('username')
+#1 [internal function]: frontend\controllers\SiteController->actionHola('holas')
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W18124YQmhXEYRnyhgSrZgAAABo',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=00vjmldamjnfap2k8jaknpq695; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '53654',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'REDIRECT_QUERY_STRING' => 'message=holas',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'message=holas',
+    'REQUEST_URI' => '/site/hola?message=holas',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532966363.27388095855712890625,
+    'REQUEST_TIME' => 1532966363,
+    'argv' => [
+        'message=holas',
+    ],
+    'argc' => 1,
+]
+[30-Jul-2018 15:59:34 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::username' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('username')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(230): yii\di\ServiceLocator->__get('username')
+#2 [internal function]: frontend\controllers\SiteController->actionHola('holas')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1815qSRu6zUley8iglVWAAAAAk',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => 'PHPSESSID=00vjmldamjnfap2k8jaknpq695; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '53656',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'REDIRECT_QUERY_STRING' => 'message=holas',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => 'message=holas',
+    'REQUEST_URI' => '/site/hola?message=holas',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532966374.2245891094207763671875,
+    'REQUEST_TIME' => 1532966374,
+    'argv' => [
+        'message=holas',
+    ],
+    'argc' => 1,
+]
+[30-Jul-2018 21:58:37 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 230.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@KDZtHahB2Kx6wt1SrdgAAABE',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '55074',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532987917.7863190174102783203125,
+    'REQUEST_TIME' => 1532987917,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:01:35 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 232
+[30-Jul-2018 22:02:31 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 233.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 233.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@K9s7twcSlOnqZ9ePv7QAAAAg',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '55104',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532988150.4133980274200439453125,
+    'REQUEST_TIME' => 1532988150,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:03:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 232
+[30-Jul-2018 22:04:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 232
+[30-Jul-2018 22:57:39 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::response()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__call('response', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\web\Request->response()
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@X46xjbJhfeAKt-fdaEAAAAA0',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123; _gat_gtag_UA_123160093_1=1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58724',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991459.545648097991943359375,
+    'REQUEST_TIME' => 1532991459,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:57:39 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::response()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__call('response', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\web\Request->response()
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@X45cMAwtLC7kmQE1n1gAAABc',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123; _gat_gtag_UA_123160093_1=1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58725',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991459.91985988616943359375,
+    'REQUEST_TIME' => 1532991459,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:57:53 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::response()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__call('response', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\web\Request->response()
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@X8RKsVrCoZvKjQ4jU0gAAAAI',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123; _gat_gtag_UA_123160093_1=1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58746',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991473.45615291595458984375,
+    'REQUEST_TIME' => 1532991473,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:57:55 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::response()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__call('response', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\web\Request->response()
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@X8hKsVrCoZvKjQ4jU0wAAAAI',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123; _gat_gtag_UA_123160093_1=1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58746',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991475.012422084808349609375,
+    'REQUEST_TIME' => 1532991475,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 22:58:09 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownMethodException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownMethodException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Application::response()' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__call('response', Array)
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\web\Application->response()
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@YAUiB6N4xROclJBF7kQAAAAk',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123; _gat_gtag_UA_123160093_1=1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58775',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991489.3818759918212890625,
+    'REQUEST_TIME' => 1532991489,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 23:00:48 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Session::username' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__get('username')
+#1 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@YoIMyBHCVS4V-Z5nVDQAAABg',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '58997',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991648.7141931056976318359375,
+    'REQUEST_TIME' => 1532991648,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 23:01:11 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::identity' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get('identity')
+#1 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\di\ServiceLocator->__get('identity')
+#2 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@Yt0rUK4NL0brRyaWCkgAAAAQ',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '59031',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991671.6302111148834228515625,
+    'REQUEST_TIME' => 1532991671,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 23:03:20 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 231.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\User::email' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php(231): yii\base\Component->__get('email')
+#1 [internal function]: frontend\controllers\SiteController->actionHola('Hola')
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('hola', Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/hola', Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W1@ZOLr@Zh86q3KF7K7pcwAAAAM',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=8f7e2dba7cbefe277dc41a8f3d13056876523ccc7ad3f92ebdc2cdea40397c4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dtm5amXVHzGL7uWdrPbxw4vmkA1SYyCS%22%3B%7D; PHPSESSID=jjqe613lfdcqu8qh2q3k9bbd26; _ga=GA1.2.196840612.1532989123; _gid=GA1.2.1360973164.1532989123',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '59230',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/hola',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532991800.9149448871612548828125,
+    'REQUEST_TIME' => 1532991800,
+    'argv' => [],
+    'argc' => 0,
+]
+[30-Jul-2018 23:09:49 UTC] PHP Fatal error:  Class 'frontend\controllers\Post' not found in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 79
+[31-Jul-2018 22:45:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/yellomil/yii.yellomile.com/frontend/views/site/hola.php on line 5
+[31-Jul-2018 22:46:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/yellomil/yii.yellomile.com/frontend/views/site/hola.php on line 5
+[31-Jul-2018 22:46:15 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/yellomil/yii.yellomile.com/frontend/views/site/hola.php on line 5
+[01-Aug-2018 21:47:46 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 85.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php:597
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(597): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/yellomil/...', 597, Array)
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(613): yii\web\Request->getBodyParam(Array, NULL)
+#2 /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php(87): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\ContactosController->actionCreate()
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('contactos/creat...', Array)
+#8 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W2Iqgg@Qo358krjnxorRYgAAAAY',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '251',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://yii.yellomile.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/contactos/create',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_ga=GA1.2.1560142740.1533146238; _gid=GA1.2.1900996341.1533146238; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=fa408457036385a34c776486999d89635ac6e1a66c17836476d32497b60d907aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YzUfXu827U8TS_ABtApWBLp3-PqV3Epa%22%3B%7D; PHPSESSID=qfk7vrro3lvt7l6316fc6bnln1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '51313',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/contactos/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1533160066.7507679462432861328125,
+    'REQUEST_TIME' => 1533160066,
+    'argv' => [],
+    'argc' => 0,
+]
+[01-Aug-2018 21:48:23 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 85.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php:597
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(597): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/yellomil/...', 597, Array)
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(613): yii\web\Request->getBodyParam(Array, NULL)
+#2 /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php(87): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\ContactosController->actionCreate()
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('contactos/creat...', Array)
+#8 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W2Iqp05n61vL6YMZ6ZVDAAAAAAE',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '251',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://yii.yellomile.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/contactos/create',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_ga=GA1.2.1560142740.1533146238; _gid=GA1.2.1900996341.1533146238; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=fa408457036385a34c776486999d89635ac6e1a66c17836476d32497b60d907aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YzUfXu827U8TS_ABtApWBLp3-PqV3Epa%22%3B%7D; PHPSESSID=qfk7vrro3lvt7l6316fc6bnln1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '51366',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/contactos/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1533160103.3892090320587158203125,
+    'REQUEST_TIME' => 1533160103,
+    'argv' => [],
+    'argc' => 0,
+]
+[01-Aug-2018 21:48:53 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 85.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php:597
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(597): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/yellomil/...', 597, Array)
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(613): yii\web\Request->getBodyParam(Array, NULL)
+#2 /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php(87): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\ContactosController->actionCreate()
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('contactos/creat...', Array)
+#8 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W2Iqxcz1dbKB9ESW8Md5CgAAAA8',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '251',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://yii.yellomile.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/contactos/create',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_ga=GA1.2.1560142740.1533146238; _gid=GA1.2.1900996341.1533146238; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=fa408457036385a34c776486999d89635ac6e1a66c17836476d32497b60d907aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YzUfXu827U8TS_ABtApWBLp3-PqV3Epa%22%3B%7D; PHPSESSID=qfk7vrro3lvt7l6316fc6bnln1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '51408',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/contactos/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1533160133.7424299716949462890625,
+    'REQUEST_TIME' => 1533160133,
+    'argv' => [],
+    'argc' => 0,
+]
+[01-Aug-2018 21:49:24 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 85.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php:597
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(597): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/yellomil/...', 597, Array)
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(613): yii\web\Request->getBodyParam(Array, NULL)
+#2 /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php(87): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\ContactosController->actionCreate()
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('contactos/creat...', Array)
+#8 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W2Iq4x0KSpO9Vig5dAtgdQAAAAs',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '251',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://yii.yellomile.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/contactos/create',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_ga=GA1.2.1560142740.1533146238; _gid=GA1.2.1900996341.1533146238; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=fa408457036385a34c776486999d89635ac6e1a66c17836476d32497b60d907aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YzUfXu827U8TS_ABtApWBLp3-PqV3Epa%22%3B%7D; PHPSESSID=qfk7vrro3lvt7l6316fc6bnln1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '51451',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/contactos/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1533160163.9412748813629150390625,
+    'REQUEST_TIME' => 1533160163,
+    'argv' => [],
+    'argc' => 0,
+]
+[01-Aug-2018 21:49:43 UTC] An Error occurred while handling another error:
+exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php on line 85.' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php:597
+Stack trace:
+#0 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(597): yii\base\ErrorHandler->handleError(2, 'Illegal offset ...', '/home/yellomil/...', 597, Array)
+#1 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Request.php(613): yii\web\Request->getBodyParam(Array, NULL)
+#2 /home/yellomil/yii.yellomile.com/frontend/controllers/ContactosController.php(87): yii\web\Request->post(Array)
+#3 [internal function]: frontend\controllers\ContactosController->actionCreate()
+#4 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('contactos/creat...', Array)
+#8 /home/yellomil/yii.yellomile.com/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/yellomil/yii.yellomile.com/frontend/web/index.php(16): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'REDIRECT_HANDLER' => 'application/x-httpd-ea-php56',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W2Iq9x0KSpO9Vig5dAtgdgAAAAs',
+    'HTTP_HOST' => 'yii.yellomile.com',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '251',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'http://yii.yellomile.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://yii.yellomile.com/contactos/create',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.9',
+    'HTTP_COOKIE' => '_ga=GA1.2.1560142740.1533146238; _gid=GA1.2.1900996341.1533146238; _identity=66263c214ccd26c289621464752f8a28b1f64dc23849134faa7ba8770b43d475a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sDOoQ3uwSL0SIZUSiYQXdlSkjb8sxfoR%22%2C2592000%5D%22%3B%7D; _csrf=fa408457036385a34c776486999d89635ac6e1a66c17836476d32497b60d907aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YzUfXu827U8TS_ABtApWBLp3-PqV3Epa%22%3B%7D; PHPSESSID=qfk7vrro3lvt7l6316fc6bnln1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'yii.yellomile.com',
+    'SERVER_ADDR' => '174.136.26.188',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '201.151.7.226',
+    'DOCUMENT_ROOT' => '/home/yellomil/yii.yellomile.com',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '/cgi-sys',
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/local/cpanel/cgi-sys/',
+    'SERVER_ADMIN' => 'webmaster@yii.yellomile.com',
+    'SCRIPT_FILENAME' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'REMOTE_PORT' => '51479',
+    'REDIRECT_URL' => '/frontend/web/index.php',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/contactos/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'ORIG_SCRIPT_FILENAME' => '/usr/local/cpanel/cgi-sys/ea-php56',
+    'ORIG_PATH_INFO' => '/frontend/web/index.php',
+    'ORIG_PATH_TRANSLATED' => '/home/yellomil/yii.yellomile.com/frontend/web/index.php',
+    'ORIG_SCRIPT_NAME' => '/cgi-sys/ea-php56',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1533160183.397924900054931640625,
+    'REQUEST_TIME' => 1533160183,
+    'argv' => [],
+    'argc' => 0,
+]
+[01-Aug-2018 22:47:20 UTC] PHP Parse error:  syntax error, unexpected 'ES' (T_STRING) in /home/yellomil/yii.yellomile.com/frontend/controllers/SiteController.php on line 237
+[02-Aug-2018 23:03:07 UTC] PHP Fatal error:  Class 'frontend\models\CatGeneros' not found in /home/yellomil/yii.yellomile.com/frontend/models/Empleados.php on line 56
