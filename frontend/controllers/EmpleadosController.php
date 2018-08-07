@@ -8,6 +8,8 @@ use frontend\models\EmpleadosSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+use frontend\models\CatGeneros;
 
 /**
  * EmpleadosController implements the CRUD actions for Empleados model.
@@ -20,6 +22,22 @@ class EmpleadosController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                //'only' => ['logout', 'signup','index'],
+                'rules' => [
+                    [
+                        'actions' => [''],
+                        'allow' => true,
+                        'roles' => ['?'],
+                    ],
+                    [
+                        'actions' => ['index','view','create','update','delete'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -65,13 +83,15 @@ class EmpleadosController extends Controller
     public function actionCreate()
     {
         $model = new Empleados();
+        $items = CatGeneros::find()->select(['texto'])->indexBy('id')->column();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['view', 'id' => $model->id])->send();
         }
 
         return $this->render('create', [
             'model' => $model,
+            'items' => $items
         ]);
     }
 
@@ -85,6 +105,7 @@ class EmpleadosController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $items = CatGeneros::find()->select(['texto'])->indexBy('id')->column();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -92,6 +113,7 @@ class EmpleadosController extends Controller
 
         return $this->render('update', [
             'model' => $model,
+            'items' => $items
         ]);
     }
 

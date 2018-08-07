@@ -12,48 +12,86 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>          
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'primer_apellido')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'segundo_apellido')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'primer_apellido')->textInput(['maxlength' => true]) ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'fecha_nac')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'id_sexo')->dropDownList(
+                    $items, ['prompt'=>'Seleccionar']
+                    ); ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'calle')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'segundo_apellido')->textInput(['maxlength' => true]) ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'num_ext')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'num_int')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'colonia')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'fecha_nac')->textInput(['maxlength' => true]) ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'cp')->textInput() ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'id_municipio')->textInput() ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'id_estado')->textInput() ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'id_sexo')->textInput() ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'telefono')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'celular')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'calle')->textInput(['maxlength' => true]) ?>
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'id_puesto')->textInput() ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'id_sucursal')->textInput() ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'status')->textInput() ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'num_ext')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'num_int')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'colonia')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'cp')->textInput() ?>
-
-    <?= $form->field($model, 'id_municipio')->textInput() ?>
-
-    <?= $form->field($model, 'id_estado')->textInput() ?>
-
-    <?= $form->field($model, 'telefono')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'celular')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'id_puesto')->textInput() ?>
-
-    <?= $form->field($model, 'id_sucursal')->textInput() ?>
-
-    <?= $form->field($model, 'status')->textInput() ?>
-
-    <?= $form->field($model, 'created_at')->textInput() ?>
-
-    <?= $form->field($model, 'updated')->textInput() ?>
-
-    <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <?= Html::submitButton('Save', ['class' => 'btn btn-success pull-right']) ?>
+            </div>
+        </div>
     </div>
 
     <?php ActiveForm::end(); ?>
