@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use kartik\field\FieldRange;
+use kartik\date\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Empleados */
@@ -13,6 +13,13 @@ use kartik\field\FieldRange;
 
     <?php $form = ActiveForm::begin(); ?>
 
+    <div class="row">
+        <div class="col-md-12">
+            <h3>
+                Datos Personales
+            </h3>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-4">
             <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>          
@@ -27,42 +34,45 @@ use kartik\field\FieldRange;
 
     <div class="row">
         <div class="col-md-4">
-            <?= $form->field($model, 'fecha_nac')->textInput(['maxlength' => true]) ?>
+            <?= $form->field($model, 'fecha_nac')->widget(DatePicker::classname(), [
+                'type' => DatePicker::TYPE_INPUT,
+                'options' => ['placeholder' => 'Fecha Nacimiento ...'],
+                'removeButton' => false,
+                'pluginOptions' => [
+                    'autoclose'=>true,
+                    'format' => 'yyyy-mm-dd'
+                ]
+            ]); ?>
         </div>
         <div class="col-md-4">
             <?= $form->field($model, 'id_sexo')->dropDownList(
                     $items, ['prompt'=>'Seleccionar']
                     ); ?>
-            <?php
-                echo DatePicker::widget([
-                    'name' => 'dp_1',
-                    'type' => DatePicker::TYPE_INPUT,
-                    'value' => '23-Feb-1982',
-                    'pluginOptions' => [
-                        'autoclose'=>true,
-                        'format' => 'dd-M-yyyy'
-                    ]
-                ]);
-            ?>
-        </div>
-        <div class="col-md-4">
-            <?= $form->field($model, 'calle')->textInput(['maxlength' => true]) ?>
         </div>
     </div>
 
     <div class="row">
+        <div class="col-md-12">
+            <h3>Domicilio</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'calle')->textInput(['maxlength' => true]) ?>
+        </div>
         <div class="col-md-4">
             <?= $form->field($model, 'num_ext')->textInput(['maxlength' => true]) ?>
         </div>
         <div class="col-md-4">
             <?= $form->field($model, 'num_int')->textInput(['maxlength' => true]) ?>
         </div>
-        <div class="col-md-4">
-            <?= $form->field($model, 'colonia')->textInput(['maxlength' => true]) ?>
-        </div>
     </div>
 
     <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($model, 'colonia')->textInput(['maxlength' => true]) ?>
+        </div>
         <div class="col-md-4">
             <?= $form->field($model, 'cp')->textInput() ?>
         </div>
@@ -75,6 +85,12 @@ use kartik\field\FieldRange;
     </div>
 
     <div class="row">
+        <div class="col-md-12">
+            <h3>Contacto</h3>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col-md-4">
             <?= $form->field($model, 'telefono')->textInput(['maxlength' => true]) ?>
         </div>
@@ -83,6 +99,12 @@ use kartik\field\FieldRange;
         </div>
         <div class="col-md-4">
             <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Puesto</h3>
         </div>
     </div>
 
