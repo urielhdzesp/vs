@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use kartik\field\FieldRange;
 
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Empleados */
@@ -32,6 +33,17 @@ use yii\widgets\ActiveForm;
             <?= $form->field($model, 'id_sexo')->dropDownList(
                     $items, ['prompt'=>'Seleccionar']
                     ); ?>
+            <?php
+                echo DatePicker::widget([
+                    'name' => 'dp_1',
+                    'type' => DatePicker::TYPE_INPUT,
+                    'value' => '23-Feb-1982',
+                    'pluginOptions' => [
+                        'autoclose'=>true,
+                        'format' => 'dd-M-yyyy'
+                    ]
+                ]);
+            ?>
         </div>
         <div class="col-md-4">
             <?= $form->field($model, 'calle')->textInput(['maxlength' => true]) ?>

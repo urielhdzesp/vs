@@ -34,6 +34,9 @@ class ComposerStaticInit89edb7035bd8a53931bb4017637b885d
         'k' => 
         array (
             'kartik\\plugins\\dateformatter\\' => 29,
+            'kartik\\helpers\\' => 15,
+            'kartik\\form\\' => 12,
+            'kartik\\field\\' => 13,
             'kartik\\datecontrol\\' => 19,
             'kartik\\base\\' => 12,
         ),
@@ -124,6 +127,18 @@ class ComposerStaticInit89edb7035bd8a53931bb4017637b885d
         'kartik\\plugins\\dateformatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/php-date-formatter',
+        ),
+        'kartik\\helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-helpers',
+        ),
+        'kartik\\form\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-activeform',
+        ),
+        'kartik\\field\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-field-range',
         ),
         'kartik\\datecontrol\\' => 
         array (
